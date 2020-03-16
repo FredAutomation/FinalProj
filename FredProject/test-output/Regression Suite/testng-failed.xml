@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]">
+  <test name="Mac Chrome Local regression test(failed)">
+    <classes>
+      <class name="Runner.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Runner.Runner -->
+    </classes>
+  </test> <!-- Mac Chrome Local regression test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
